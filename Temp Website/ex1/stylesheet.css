@@ -1,0 +1,43 @@
+body {
+	background-color: black;
+	color:white;
+	text-align: center;
+	margin:auto;
+	font-family:Sans-serif;
+	vertical-align: middle;
+}
+
+div {
+	background-image: url("image/compiled.png");
+	background-repeat: no-repeat;
+	
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+	position: center center;
+}
+
+.underline{
+	font-size:2em;
+	border-bottom: solid 2px white;
+	width:480px;
+	margin:auto;
+	font-weight: bolder;
+	}
+	
+a {
+	text-decoration: none;
+	color:white;
+}
+
+/*img {
+	max-width:100%;
+}
+
+h1 {
+	margin-bottom: 5px;
+}*/
+
+p {
+	margin-top: 10px;
+}
