@@ -104,14 +104,3 @@ a {
 	}
 }
 
-@media screen and (max-width: 430px) {
-	.content {
-		padding-left: 0;
-		padding-right: 0;
-		min-width: 425px;
-	}
-	
-	.image {
-	padding-left: 70px;
-	}
-}
