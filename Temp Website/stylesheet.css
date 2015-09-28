@@ -33,7 +33,7 @@ h1 {
 	padding-bottom: 0.5px;
 	padding-left: 10px;
 	padding-right: 10px;
-	background: #1A1A1A;
+	background: #1C1D1D;
 }
 
 .top p {
@@ -52,13 +52,13 @@ h1 {
 	width: 0;
 	position: relative;
 	pointer-events: none;
-	border-top-color: #1A1A1A;
+	border-top-color: #1C1D1D;
 	display: block;
 }
 
 .bottom {
 	position: relative;
-	background: #400000;
+	background: #59080C;
 	margin-top: -10px;
 	padding-bottom: 25px;
 	padding-right: 15px;
@@ -75,6 +75,7 @@ a {
 	font-size: 0.9em;
 	font-weight: bolder;
 	font-style: italic;
+	text-transform: lowercase;
 }
 
 @media screen and (min-width: 1350px) {
