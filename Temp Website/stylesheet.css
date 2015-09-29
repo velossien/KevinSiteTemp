@@ -98,10 +98,22 @@ a {
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
+	.content {
+	padding-left: 7%;
+	padding-right: 7%;
+	}
+}
+
+@media screen and (max-width: 400px) {
 	.content {
 	padding-left: 0;
 	padding-right: 0;
+	}
+	
+	.image {
+	position: relative;
+	padding-top: 50px;
 	}
 }
 
