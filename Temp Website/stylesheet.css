@@ -2,7 +2,8 @@ body {
 	background-color: black;
 	color: white;
 	text-align: center;
-	font-family: sans-serif
+	font-family: sans-serif;
+	margin: 0px;
 }
 	
 .content {
@@ -96,20 +97,6 @@ a {
 	padding-left: 13%;
 	padding-right: 13%;
 	}
-}
-
-@media screen and (max-width: 500px) {
-	.content {
-	padding-left: 7%;
-	padding-right: 7%;
-	}
-}
-
-@media screen and (max-width: 400px) {
-	.content {
-	padding-left: 0;
-	padding-right: 0;
-	}
 	
 	.image {
 	position: relative;
@@ -117,3 +104,39 @@ a {
 	}
 }
 
+@media screen and (max-width: 500px) {
+	.content {
+	padding-left: 7%;
+	padding-right: 7%;
+	}
+	
+	.image {
+	position: relative;
+	padding-top: 25px;
+	}	
+}
+
+@media screen and (max-width: 370px) {
+	.content {
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	
+	.image {
+	position: relative;
+	padding-top: 25px;
+	}	
+}
+
+@media screen and (max-width: 310px) {
+	.content {
+	width: 310px;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	
+	.image {
+	position: relative;
+	padding-top: 25px;
+	}
+}
